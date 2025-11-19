@@ -1,8 +1,6 @@
 name: Build and upload JAR to S3
 
 on:
-  push:
-    branches: [ main, Assignment_2 ]
   workflow_dispatch: {}
 
 jobs:
